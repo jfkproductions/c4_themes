@@ -1,0 +1,60 @@
+{
+    "name" : "Lionsville process theme",
+    "elements" : [ {
+      "tag" : "Element",
+      "shape" : "RoundedBox",
+      "background" : "#1168bd",
+      "color" : "#ffffff"
+    },
+    {
+      "tag": "Start",
+      "shape": "RoundedBox",
+      "height": "200",
+      "background": "#508A20",
+      "color": "#ffffff",
+      "Metadata": false,
+      "Description": false
+    }, 
+    {
+      "tag": "End",
+      "shape": "RoundedBox",
+      "height": "200",
+      "background": "#AB1315",
+      "color": "#ffffff",
+      "Metadata": false,
+      "Description": false
+    },
+    {
+      "tag": "Decision",
+      "shape": "Diamond",
+      "Metadata": false,
+      "Description": false
+    },
+    {
+      "tag": "Action",
+      "shape": "Box",
+      "Metadata": false,
+      "Description": true
+    },
+    {
+      "tag": "Notification",
+      "shape": "RoundedBox",
+      "Metadata": false,
+      "Description": true,
+      "background": "#ffffff",
+      "color": "#cccccc"
+    },
+    {
+      "tag": "WebBrowser",
+      "shape": "WebBrowser"
+    },
+    {
+      "tag": "Person",
+      "shape": "Person"
+    },
+    {
+      "tag": "Database",
+      "shape": "Cylinder"
+    }
+   ]
+  }
